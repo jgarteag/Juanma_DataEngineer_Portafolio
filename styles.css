@@ -264,6 +264,51 @@ b {
     top: var(--space-md);
     right: var(--space-md);
   }
+  
+  /* Ajustar tamaños de fuente para móvil */
+  .hero__name {
+    font-size: 1.75rem;
+  }
+  
+  .hero__title {
+    font-size: var(--font-size-md);
+  }
+  
+  .section__title {
+    font-size: var(--font-size-lg);
+  }
+  
+  .experience__role {
+    font-size: var(--font-size-md);
+  }
+  
+  .certification__title {
+    font-size: var(--font-size-md);
+  }
+  
+  /* Ajustar padding para móvil */
+  .hero {
+    padding: var(--space-lg) var(--space-md);
+  }
+  
+  .about,
+  .experience,
+  .skills,
+  .certifications,
+  .footer {
+    padding: var(--space-lg) var(--space-md);
+  }
+  
+  /* Logos más pequeños en móvil */
+  .company-logo {
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* Footer text más pequeño */
+  .footer__text {
+    font-size: var(--font-size-md);
+  }
 }
 
 /* ============================================
