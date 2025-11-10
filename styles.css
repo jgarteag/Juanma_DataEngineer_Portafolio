@@ -309,6 +309,21 @@ b {
   .footer__text {
     font-size: var(--font-size-md);
   }
+  
+  /* Botón CV fijo en móvil - evitar que se mueva */
+  .cv-download {
+    position: fixed;
+    bottom: var(--space-md);
+    right: var(--space-md);
+    left: auto;
+    transform: none;
+  }
+  
+  .cv-download__button {
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--font-size-xs);
+    white-space: nowrap;
+  }
 }
 
 /* ============================================
