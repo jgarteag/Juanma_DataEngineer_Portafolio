@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Tags Básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional - Juan Manuel Guerrero - Data Engineer">
+    <meta name="author" content="Juan Manuel Guerrero">
+    
+    <!-- Título de la página -->
+    <title>Juan Manuel Guerrero - Portafolio</title>
+    
+    <!-- Enlace a hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preconnect para fuentes web (optimización) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    
+    <!-- Selector de idioma -->
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    
+    <!-- ============================================
+         HERO SECTION - Sección inicial de presentación
+         Personalización: Cambia el nombre, título y tagline
+         ============================================ -->
+    <section class="hero">
+        <h1 class="hero__name">Juan Manuel Guerrero</h1>
+        <p class="hero__title">Software Engineer · Data Engineer</p>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION - Sobre mí
+         Personalización: Escribe tu presentación personal
+         ============================================ -->
+    <section class="about">
+        <h2 class="section__title">Sobre mí</h2>
+        <p class="about__text">
+            Ingeniero de datos con experiencia en la creación de pipelines y procesos ETL eficientes. 
+            Especializado en Python, SQL y soluciones en AWS ☁️, incluyendo servicios como Glue, Athena, 
+            CloudFormation, RedShift, S3 y más. También con conocimientos en Data Warehouse y Data Lake.
+            <br><br>
+            Enfocado en el diseño de arquitecturas escalables y la optimización del procesamiento de datos 
+            para la toma de decisiones estratégicas. 🚀
+        </p>
+    </section>
+
+    <!-- ============================================
+         EXPERIENCE SECTION - Experiencia profesional
+         Personalización: Agrega tus experiencias laborales
+         Duplica el <article> para cada experiencia
+         ============================================ -->
+    <section class="experience">
+        <h2 class="section__title">Experiencia</h2>
+        <div class="experience__list">
+            
+            <!-- Experiencia 1 - Nequi -->
+            <article class="experience__item">
+                <div class="experience__header">
+                    <svg class="company-logo" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Logo minimalista Nequi - Círculo con N -->
+                        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <text x="20" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="currentColor">N</text>
+                    </svg>
+                    <div class="experience__info">
+                        <h3 class="experience__role">Data Engineer</h3>
+                        <p class="experience__company">
+                            <a href="https://www.nequi.com.co/" target="_blank" rel="noopener noreferrer">Nequi</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="experience__period">Febrero 2025 - Presente</p>
+                <p class="experience__description">
+                    Entrega de productos de datos con enfoque en la nube AWS, utilizando servicios analíticos 
+                    como Lambda, Redshift, Glue, DynamoDB, SSM, entre otros. Diseño e implementación de 
+                    arquitecturas escalables para el procesamiento y análisis de datos en tiempo real.
+                </p>
+            </article>
+
+            <!-- Experiencia 2 - Bancolombia -->
+            <article class="experience__item">
+                <div class="experience__header">
+                    <svg class="company-logo" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Logo minimalista Bancolombia - Cuadrado con B -->
+                        <rect x="2" y="2" width="36" height="36" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <text x="20" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="currentColor">B</text>
+                    </svg>
+                    <div class="experience__info">
+                        <h3 class="experience__role">Data Engineer (Prácticas)</h3>
+                        <p class="experience__company">
+                            <a href="https://www.bancolombia.com/personas" target="_blank" rel="noopener noreferrer">Bancolombia</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="experience__period">Enero 2023 - Enero 2024</p>
+                <p class="experience__description">
+                    Desarrollo y mantenimiento de procesos analíticos utilizando librerías internas basadas 
+                    en Hadoop. Implementación de sistemas de calendarización de procesos analíticos para 
+                    optimizar el flujo de datos y mejorar la eficiencia operativa.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION - Habilidades
+         Personalización: Lista tus habilidades técnicas y profesionales
+         Agrega o elimina <li> según necesites
+         ============================================ -->
+    <section class="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <ul class="skills__list">
+            <li class="skills__item">Python</li>
+            <li class="skills__item">SQL</li>
+            <li class="skills__item">AWS Glue</li>
+            <li class="skills__item">AWS Lambda</li>
+            <li class="skills__item">Amazon Redshift</li>
+            <li class="skills__item">Amazon S3</li>
+            <li class="skills__item">AWS Athena</li>
+            <li class="skills__item">DynamoDB</li>
+            <li class="skills__item">CloudFormation</li>
+            <li class="skills__item">ETL Pipelines</li>
+            <li class="skills__item">Data Warehouse</li>
+            <li class="skills__item">Data Lake</li>
+        </ul>
+    </section>
+
+    <!-- ============================================
+         CERTIFICATIONS SECTION - Certificaciones AWS
+         Personalización: Agrega tus certificaciones
+         Duplica el <article> para cada certificación
+         ============================================ -->
+    <section class="certifications">
+        <h2 class="section__title">Certificaciones</h2>
+        <div class="certifications__grid">
+            
+            <!-- Certificación 1 - AWS Data Engineer -->
+            <article class="certification__card">
+                <h3 class="certification__title">AWS Certified Data Engineer – Associate</h3>
+                <p class="certification__issuer">Amazon Web Services (AWS)</p>
+                <a href="https://www.credly.com/badges/55c42dcf-58c8-4565-9b36-9704c0d2752d/linked_in_profile" 
+                   class="certification__link" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    Ver credencial →
+                </a>
+            </article>
+
+            <!-- Certificación 2 - AWS Cloud Practitioner -->
+            <article class="certification__card">
+                <h3 class="certification__title">AWS Certified Cloud Practitioner</h3>
+                <p class="certification__issuer">Amazon Web Services (AWS)</p>
+                <a href="https://www.credly.com/badges/ca471e40-7dfc-4f3c-9ccb-45d0dc2a42d5/linked_in?t=syotmp" 
+                   class="certification__link" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    Ver credencial →
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ============================================
+         CV DOWNLOAD - Botón de descarga de CV
+         Personalización: Asegúrate de tener tu cv.pdf en la carpeta assets/
+         ============================================ -->
+    <div class="cv-download">
+        <a href="assets/cv.pdf" class="cv-download__button" download>
+            Descargar CV
+        </a>
+    </div>
+
+    <!-- ============================================
+         FOOTER - Información de contacto
+         Personalización: Agrega tu email y enlaces de contacto
+         ============================================ -->
+    <footer class="footer">
+        <p class="footer__text">"No podemos resolver problemas pensando de la misma manera que cuando los creamos."</p>
+        <p class="footer__author">— Albert Einstein</p>
+        <div class="footer__contact">
+            <a href="https://www.linkedin.com/in/juanmagart" target="_blank" rel="noopener noreferrer" class="footer__linkedin" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Script de traducción -->
+    <script>
+        // Traducciones
+        const translations = {
+            es: {
+                title: "Ingeniero de Software · Data Engineer",
+                aboutTitle: "Sobre mí",
+                aboutText: "Ingeniero de datos con experiencia en la creación de pipelines y procesos ETL eficientes. Especializado en Python, SQL y soluciones en AWS ☁️, incluyendo servicios como Glue, Athena, CloudFormation, RedShift, S3 y más. También con conocimientos en Data Warehouse y Data Lake.<br><br>Enfocado en el diseño de arquitecturas escalables y la optimización del procesamiento de datos para la toma de decisiones estratégicas. 🚀",
+                experienceTitle: "Experiencia",
+                role1: "Data Engineer",
+                period1: "Febrero 2025 - Presente",
+                desc1: "Entrega de productos de datos con enfoque en la nube AWS, utilizando servicios analíticos como Lambda, Redshift, Glue, DynamoDB, SSM, entre otros. Diseño e implementación de arquitecturas escalables para el procesamiento y análisis de datos en tiempo real.",
+                role2: "Data Engineer (Prácticas)",
+                period2: "Enero 2023 - Enero 2024",
+                desc2: "Desarrollo y mantenimiento de procesos analíticos utilizando librerías internas basadas en Hadoop. Implementación de sistemas de calendarización de procesos analíticos para optimizar el flujo de datos y mejorar la eficiencia operativa.",
+                skillsTitle: "Habilidades",
+                certificationsTitle: "Certificaciones",
+                cvButton: "Descargar CV",
+                footerQuote: '"No podemos resolver problemas pensando de la misma manera que cuando los creamos."',
+                footerAuthor: "— Albert Einstein"
+            },
+            en: {
+                title: "Software Engineer · Data Engineer",
+                aboutTitle: "About Me",
+                aboutText: "Data engineer with experience in creating efficient pipelines and ETL processes. Specialized in Python, SQL, and AWS solutions ☁️, including services such as Glue, Athena, CloudFormation, RedShift, S3, and more. Also knowledgeable in Data Warehouse and Data Lake.<br><br>Focused on designing scalable architectures and optimizing data processing for strategic decision-making. 🚀",
+                experienceTitle: "Experience",
+                role1: "Data Engineer",
+                period1: "February 2025 - Present",
+                desc1: "Delivery of data products with a focus on AWS cloud, using analytical services such as Lambda, Redshift, Glue, DynamoDB, SSM, among others. Design and implementation of scalable architectures for real-time data processing and analysis.",
+                role2: "Data Engineer (Internship)",
+                period2: "January 2023 - January 2024",
+                desc2: "Development and maintenance of analytical processes using internal Hadoop-based libraries. Implementation of scheduling systems for analytical processes to optimize data flow and improve operational efficiency.",
+                skillsTitle: "Skills",
+                certificationsTitle: "Certifications",
+                cvButton: "Download CV",
+                footerQuote: '"We cannot solve problems by thinking the same way we did when we created them."',
+                footerAuthor: "— Albert Einstein"
+            }
+        };
+
+        // Función para cambiar idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar atributo lang del HTML
+            document.documentElement.lang = lang;
+            
+            // Actualizar contenido
+            document.querySelector('.hero__title').textContent = t.title;
+            document.querySelectorAll('.section__title')[0].textContent = t.aboutTitle;
+            document.querySelector('.about__text').innerHTML = t.aboutText;
+            document.querySelectorAll('.section__title')[1].textContent = t.experienceTitle;
+            document.querySelectorAll('.experience__role')[0].textContent = t.role1;
+            document.querySelectorAll('.experience__period')[0].textContent = t.period1;
+            document.querySelectorAll('.experience__description')[0].textContent = t.desc1;
+            document.querySelectorAll('.experience__role')[1].textContent = t.role2;
+            document.querySelectorAll('.experience__period')[1].textContent = t.period2;
+            document.querySelectorAll('.experience__description')[1].textContent = t.desc2;
+            document.querySelectorAll('.section__title')[2].textContent = t.skillsTitle;
+            document.querySelectorAll('.section__title')[3].textContent = t.certificationsTitle;
+            document.querySelector('.cv-download__button').textContent = t.cvButton;
+            document.querySelector('.footer__text').textContent = t.footerQuote;
+            document.querySelector('.footer__author').textContent = t.footerAuthor;
+            
+            // Guardar preferencia
+            localStorage.setItem('preferredLanguage', lang);
+            
+            // Actualizar botones activos
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+            });
+        }
+
+        // Event listeners para botones de idioma
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                changeLanguage(btn.dataset.lang);
+            });
+        });
+
+        // Cargar idioma guardado o detectar idioma del navegador
+        const savedLang = localStorage.getItem('preferredLanguage');
+        const browserLang = navigator.language.startsWith('es') ? 'es' : 'en';
+        const initialLang = savedLang || browserLang;
+        
+        if (initialLang === 'en') {
+            changeLanguage('en');
+        }
+    </script>
+
+    <!-- Script para activar animación al hacer scroll -->
+    <script>
+        // Intersection Observer para activar la animación cuando el footer es visible
+        const footer = document.querySelector('.footer');
+        const footerText = document.querySelector('.footer__text');
+        const footerAuthor = document.querySelector('.footer__author');
+        
+        // Remover las animaciones inicialmente
+        footerText.style.animation = 'none';
+        footerAuthor.style.opacity = '0';
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Activar animaciones cuando el footer es visible
+                    footerText.style.animation = 'typing 6s steps(90, end), blink-caret 0.75s step-end infinite';
+                    footerAuthor.style.animation = 'fadeInAuthor 1s ease-in 6s forwards';
+                    
+                    // Desconectar el observer después de activar (solo una vez)
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.3 // Se activa cuando el 30% del footer es visible
+        });
+        
+        observer.observe(footer);
+    </script>
+
+</body>
+</html>
